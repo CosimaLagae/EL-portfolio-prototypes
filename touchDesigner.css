@@ -1,0 +1,11 @@
+div{
+    width: 95vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.video1{
+    width: 95vw;
+
+}

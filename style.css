@@ -4,11 +4,13 @@
   box-sizing: border-box;
 }
 a{
-    text-decoration: none;
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
 }
 a:visited{
-    text-decoration: none;
-    color: white;
+  text-decoration: none;
+  color: white;
 }
 
 .btn {
@@ -35,7 +37,7 @@ a:visited{
   height: 100vh;
   background: #0f0f0f;
   color: #fff;
-  z-index: -2;
+  z-index: 3;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 8em;
 
