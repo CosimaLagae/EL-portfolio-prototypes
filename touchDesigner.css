@@ -1,11 +1,47 @@
+*{
+    margin: 0;
+    font-family: Helvetica, sans-serif;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+header{
+    display: flex;
+}
+
+header h1{
+    margin-left: 1vw;
+    font-size: 4.5vw;
+}
+header p{
+    font-size: .9vw;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    margin-top: 1.5vh;
+}
 div{
-    width: 95vw;
-    height: auto;
+    width: 98.9vw;
+    height: 100vh;
     display: flex;
     flex-direction: column;
 }
 
-.video1{
-    width: 95vw;
+video{
+    width: 100%;
+}
 
+body::-webkit-scrollbar {
+    display: none;
+}
+
+footer {
+    display: flex;
+    margin-bottom: 1vh;
+    margin-top: 1vh;
+}
+
+footer h1{
+    margin-left: 1vw;
+    font-size: 4.1vw;
 }
