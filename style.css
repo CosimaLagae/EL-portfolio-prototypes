@@ -76,6 +76,10 @@ a:visited{
   opacity: 0.1;
   color: black;
 }
+.text img{
+  margin: 0;
+  width: 15vw;
+}
 
 
 
