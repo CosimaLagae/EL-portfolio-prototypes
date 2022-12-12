@@ -45,7 +45,6 @@ a:visited{
   flex-direction: column;
 }
 .header div{
-  width: 100vw;
   margin-left: 1vw;
   
 }
@@ -76,4 +75,43 @@ a:visited{
   text-transform: uppercase;
   opacity: 0.1;
   color: black;
+}
+
+
+
+.header a{
+  display: flex;
+}
+
+.blend{
+  height: 21vh;
+  width: auto;
+  margin-left: 2vw;
+
+  visibility: hidden;
+  opacity: 0;
+}
+
+.touch{
+  height: 21vh;
+  width: auto;
+  margin-left: 2vw;
+
+  visibility: hidden;
+  opacity: 0;
+
+
+
+}
+
+
+
+.aBlend:hover .blend {
+  visibility: visible;
+  opacity: 1;
+}
+
+.aTouch:hover .touch {
+  visibility: visible;
+  opacity: 1;
 }
